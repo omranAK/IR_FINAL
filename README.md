@@ -1,21 +1,21 @@
 IR_Python project is python project for search engine  .
 # Provide this cores :
-1.[Main.py] contains end-points: 
+**1**.[Main.py] contains end-points: 
   -@app.post("/api/user_query")
   -@app.post("/api/match_to_cluster")
   -@app.post("/api/embedding_match")
 
-2- [service.py] contains the following services in the order: 
+**2**- [service.py] contains the following services in the order: 
   processing a query and then calling the cosine similarity function on the processed queries vector and the documents vectors te optain the right answers :
     -	Match.
     -	Match to clusters.
     -	Embedding match.
 
-3- [Text_processing.py] conatins the main pre-processing functions
-  	• Reading dataset
-	  • Normalization 
+**3**- [Text_processing.py] conatins the main pre-processing functions
+    • Reading dataset
+    • Normalization 
     • Converting to lowercase 
-  	• Removing URLs
+    • Removing URLs
     • Removing punctuation
     • Converting numbers to words or deleting digits
     • Tokenization 
@@ -23,12 +23,12 @@ IR_Python project is python project for search engine  .
     • Removing stop words
     • Stemming 
 
-4- [Vectorization.py] contains:
+**4**- [Vectorization.py] contains:
     • TFIDFvectorizer
     • CosineSimilarity
-5- [Dataset_one.ipynb] : pre-processing the first dataset and then vectorising then clustering it and finally performing word embedding on it.
-6- [Dataset_two.ipynb] : pre-processing the second dataset and then vectorising then clustering it and finally performing word embedding on it.
-7- [Evaluatetion.py] : contains the following functions :
+**5**- [Dataset_one.ipynb] : pre-processing the first dataset and then vectorising then clustering it and finally performing word embedding on it.
+**6**- [Dataset_two.ipynb] : pre-processing the second dataset and then vectorising then clustering it and finally performing word embedding on it.
+**7**- [Evaluatetion.py] : contains the following functions :
     • Making  a golden standard (dictionary) out of QRELs  
     •	Key : query id.
     • Value : relevant documents ids.
@@ -47,10 +47,10 @@ IR_Python project is python project for search engine  .
     • Calculate average precision.
     • Calculate average recall.
 
-8- [Evaluate_dataset_one.ipynb]: evaluating the first dataset before and after clustering
-9- [Evaluate_dataset_two.ipynb]: evaluating the second dataset before and after clustering
-10- [Tfidf_output] : folder containing the results of tfidf vectorization on both datasets
-11- [queries]: folder containing the results of tfidf vectorization on both dataset quieries files
+**8**- [Evaluate_dataset_one.ipynb]: evaluating the first dataset before and after clustering
+**9**- [Evaluate_dataset_two.ipynb]: evaluating the second dataset before and after clustering
+**10**- [Tfidf_output] : folder containing the results of tfidf vectorization on both datasets
+**11**- [queries]: folder containing the results of tfidf vectorization on both dataset quieries files
 # Features
 
 1- [Clustering.py]  : contains the following functions :
