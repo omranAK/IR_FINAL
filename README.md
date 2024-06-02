@@ -1,4 +1,4 @@
-IR_Python project is python project for search engine  .
+IR_Python project is python project for search engine with vector space model using Sklean TFIDFVECTPRIZER .
 # Provide this cores :
 **1**.[Main.py] contains end-points: <br/>
        $~~~~~~~~~~~$-@app.post("/api/user_query")<br/>
