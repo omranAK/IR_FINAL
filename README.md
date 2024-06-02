@@ -1,6 +1,6 @@
 IR_Python project is python project for search engine  .
 # Provide this cores :
-1- [Main.py] contains end-points: 
+1.[Main.py] contains end-points: 
 -@app.post("/api/user_query")
 -@app.post("/api/match_to_cluster")
 -@app.post("/api/embedding_match")
