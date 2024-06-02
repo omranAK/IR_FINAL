@@ -2,7 +2,7 @@ IR_Python project is python project for search engine  .
 # Provide this cores :
 **1**.[Main.py] contains end-points: <br/>
        $~~~~~~~~~~~$-@app.post("/api/user_query")<br/>
-        <br />        -@app.post("/api/match_to_cluster")<br/>
+       $~~~~~~~~~~~$-@app.post("/api/match_to_cluster")<br/>
        &nbsp -@app.post("/api/embedding_match")<br/>
 
 **2**- [service.py] contains the following services in the order: <br/>
