@@ -3,25 +3,25 @@ IR_Python project is python project for search engine  .
 **1**.[Main.py] contains end-points: <br/>
        $~~~~~~~~~~~$-@app.post("/api/user_query")<br/>
        $~~~~~~~~~~~$-@app.post("/api/match_to_cluster")<br/>
-       &nbsp -@app.post("/api/embedding_match")<br/>
+       $~~~~~~~~~~~$ -@app.post("/api/embedding_match")<br/>
 
 **2**- [service.py] contains the following services in the order: <br/>
   processing a query and then calling the cosine similarity function on the processed queries vector and the documents vectors te optain the right answers :<br/>
-    -	Match.<br/>
-    -	Match to clusters.<br/>
-    -	Embedding match.<br/>
+    $~~~~~~~~~~~$-	Match.<br/>
+    $~~~~~~~~~~~$-	Match to clusters.<br/>
+    $~~~~~~~~~~~$-	Embedding match.<br/>
 
 **3**- [Text_processing.py] conatins the main pre-processing functions<br/>
-    • Reading dataset<br/>
-    • Normalization <br/>
-    • Converting to lowercase <br/>
-    • Removing URLs<br/>
-    • Removing punctuation<br/>
-    • Converting numbers to words or deleting digits<br/>
-    • Tokenization <br/>
-    • Correct query<br/>
-    • Removing stop words<br/>
-    • Stemming <br/>
+    $~~~~~~~~~~~$• Reading dataset<br/>
+    $~~~~~~~~~~~$• Normalization <br/>
+    $~~~~~~~~~~~$• Converting to lowercase <br/>
+    $~~~~~~~~~~~$• Removing URLs<br/>
+    $~~~~~~~~~~~$• Removing punctuation<br/>
+    $~~~~~~~~~~~$• Converting numbers to words or deleting digits<br/>
+    $~~~~~~~~~~~$• Tokenization <br/>
+    $~~~~~~~~~~~$• Correct query<br/>
+    $~~~~~~~~~~~$• Removing stop words<br/>
+    $~~~~~~~~~~~$• Stemming <br/>
 
 **4**- [Vectorization.py] contains:<br/>
     • TFIDFvectorizer<br/>
