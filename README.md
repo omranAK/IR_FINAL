@@ -24,28 +24,28 @@ IR_Python project is python project for search engine  .
     $~~~~~~~~~~~$• Stemming <br/>
 
 **4**- [Vectorization.py] contains:<br/>
-    • TFIDFvectorizer<br/>
-    • CosineSimilarity<br/>
+    $~~~~~~~~~~~$• TFIDFvectorizer<br/>
+    $~~~~~~~~~~~$• CosineSimilarity<br/>
 **5**- [Dataset_one.ipynb] : pre-processing the first dataset and then vectorising then clustering it and finally performing word embedding on it.<br/>
 **6**- [Dataset_two.ipynb] : pre-processing the second dataset and then vectorising then clustering it and finally performing word embedding on it.<br/>
 **7**- [Evaluatetion.py] : contains the following functions :<br/>
-    • Making  a golden standard (dictionary) out of QRELs  <br/>
-    •	Key : query id.<br/>
-    • Value : relevant documents ids.<br/>
-    • Pre-processing QRELs .<br/>
-    • Looping through the query_ids (the dictionary):<br/>
-    • Getting the cleaned query and vectorising it.<br/>
-    • Getting the relevant documents using the dictionary.<br/>
-    • Calculating the cosine similarity between the query vector and each vector of our TFIDF matrix.<br/>
-    • Ranking the results.<br/>
-    • Calculating precision@10.<br/>
-    • Calculating recall@10.<br/>
-    • Calculating average precision.<br/>
-    • Calculating reciprocal rank.<br/>
-    • Calculate mean average precision. <br/>
-    • Calculate mean reciprocal rank.<br/>
-    • Calculate average precision.<br/>
-    • Calculate average recall.<br/>
+    $~~~~~~~~~~~$• Making  a golden standard (dictionary) out of QRELs  <br/>
+    $~~~~~~~~~~~$•	Key : query id.<br/>
+    $~~~~~~~~~~~$• Value : relevant documents ids.<br/>
+    $~~~~~~~~~~~$• Pre-processing QRELs .<br/>
+    $~~~~~~~~~~~$• Looping through the query_ids (the dictionary):<br/>
+    $~~~~~~~~~~~$• Getting the cleaned query and vectorising it.<br/>
+    $~~~~~~~~~~~$• Getting the relevant documents using the dictionary.<br/>
+    $~~~~~~~~~~~$• Calculating the cosine similarity between the query vector and each vector of our TFIDF matrix.<br/>
+    $~~~~~~~~~~~$• Ranking the results.<br/>
+    $~~~~~~~~~~~$• Calculating precision@10.<br/>
+    $~~~~~~~~~~~$• Calculating recall@10.<br/>
+    $~~~~~~~~~~~$• Calculating average precision.<br/>
+    $~~~~~~~~~~~$• Calculating reciprocal rank.<br/>
+    $~~~~~~~~~~~$• Calculate mean average precision. <br/>
+    $~~~~~~~~~~~$• Calculate mean reciprocal rank.<br/>
+    $~~~~~~~~~~~$• Calculate average precision.<br/>
+    $~~~~~~~~~~~$• Calculate average recall.<br/>
 
 **8**- [Evaluate_dataset_one.ipynb]: evaluating the first dataset before and after clustering<br/>
 **9**- [Evaluate_dataset_two.ipynb]: evaluating the second dataset before and after clustering<br/>
@@ -54,19 +54,19 @@ IR_Python project is python project for search engine  .
 # Features
 
 1- [Clustering.py]  : contains the following functions :<br/>
-    • Clustering . <br/>
-    • Match .<br/>
-    • Get_docs_of_one_cluster.<br/>
-    • Cos_simi .<br/>
+    $~~~~~~~~~~~$• Clustering . <br/>
+    $~~~~~~~~~~~$• Match .<br/>
+    $~~~~~~~~~~~$• Get_docs_of_one_cluster.<br/>
+    $~~~~~~~~~~~$• Cos_simi .<br/>
 2- [Clustering_output]  : contains the output of clustering both datasets<br/>
-    • Clustered documents.<br/>
-    • Clustering image.<br/>
+    $~~~~~~~~~~~$• Clustered documents.<br/>
+    $~~~~~~~~~~~$• Clustering image.<br/>
 3- [Embedding.py]  : contains the following functions:<br/>
-    • Embedding<br/>
-    • Cos_similarity<br/>
+    $~~~~~~~~~~~$• Embedding<br/>
+    $~~~~~~~~~~~$• Cos_similarity<br/>
 4- [Embedding_output] : contains the output of word embedding both datasets<br/>
-    • Embedded documents.<br/>
-    • Embedded queries.  <br/>
+    $~~~~~~~~~~~$• Embedded documents.<br/>
+    $~~~~~~~~~~~$• Embedded queries.  <br/>
 
 ### Clone the Repository<br/>
 
