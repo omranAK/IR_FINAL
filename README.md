@@ -1,15 +1,15 @@
 IR_Python project is python project for search engine  .
 # Provide this cores :
 1- [Main.py] contains end-points: 
-    •	@app.post("/api/user_query")
-    •	@app.post("/api/match_to_cluster")
-    •	@app.post("/api/embedding_match")
+    -	@app.post("/api/user_query")
+    -	@app.post("/api/match_to_cluster")
+    -	@app.post("/api/embedding_match")
 
 2- [service.py] contains the following services in the order: 
   processing a query and then calling the cosine similarity function on the processed queries vector and the documents vectors te optain the right answers :
-    •	Match.
-    •	Match to clusters.
-    •	Embedding match.
+    -	Match.
+    -	Match to clusters.
+    -	Embedding match.
 
 3- [Text_processing.py] conatins the main pre-processing functions
   	• Reading dataset
