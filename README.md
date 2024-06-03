@@ -67,6 +67,8 @@ IR_Python project is python project for search engine with vector space model us
 4- [Embedding_output] : contains the output of word embedding both datasets<br/>
     $~~~~~~~~~~~$• Embedded documents.<br/>
     $~~~~~~~~~~~$• Embedded queries.  <br/>
+# NOTES
+for evaluation see evaluation_output folder 
 
 ### Clone the Repository<br/>
 
